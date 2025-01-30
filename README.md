@@ -16,7 +16,6 @@ A robust Retrieval-Augmented Generation (RAG) document Q&A system leveraging the
 
 ```sh
 git clone https://github.com/KrishBhimani/RAG-Document-Q-A.git
-cd your-repo
 ```
 
 ### 2️⃣ Create a Virtual Environment
