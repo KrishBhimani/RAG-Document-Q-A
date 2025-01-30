@@ -43,10 +43,10 @@ pip install -r requirements.txt
 Create a `.env` file in the project root and add:
 
 ```ini
-LANGCHAIN_API_KEY="your_api_key"
-HF_TOKEN="your_api_key_here"
-LANGCHAIN_PROJECT="your_project_name_here"
 GROQ_API_KEY="your_api_key"
+HF_TOKEN="your_api_key_here"
+LANGCHAIN_API_KEY="your_api_key"
+LANGCHAIN_PROJECT="your_project_name_here"
 ```
 
 Ensure `.env` is excluded from version control by adding it to `.gitignore`.
@@ -64,7 +64,9 @@ streamlit run app.py
 3. Connect your GitHub repository and select the branch.
 4. Add secrets in **Streamlit Settings > Secrets**:
    ```ini
-   HUGGINGFACE_API_KEY="your_api_key_here"
+   GROQ_API_KEY="your_api_key"
+   HF_TOKEN="your_api_key_here"
+   LANGCHAIN_API_KEY="your_api_key"
    LANGCHAIN_PROJECT="your_project_name_here"
    ```
 5. Deploy the app and access it online!
