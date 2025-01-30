@@ -73,5 +73,5 @@ streamlit run app.py
 
 ### 🌍 Live Demo
 
-Access the deployed app here: **[Streamlit App](https://your-streamlit-app-link)**
+Access the deployed app here: **[Streamlit App](https://rag-document-q-a-puy9fc8iydbwq9tjwa66zn.streamlit.app/)**
 
